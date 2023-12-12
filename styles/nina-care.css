@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+
+/* css for hero section block */
+/* css for hero section block */
+
+.top img {
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  max-height: 450px;
+  border-radius: 10px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.bottom {
+  margin: 1rem auto 3.5rem auto;
+  width: 60%;
+  padding: 0px 0px 40px 0px;
+  text-align: center;
+}
+
+.bottom h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+.check-mark {
+  text-align: left;
+  margin: 0 auto;
+  width: 30%;
+}
+.each {
+  line-height: 2;
+  white-space: nowrap;
+}
+.each i {
+  display: inline-block;
+  color: #5e17eb;
+  margin-right: 0.5rem;
+}
+
+.each p {
+  display: inline;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.hero-btn {
+  display: block;
+  margin: 1.5rem auto 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 10px 20px;
+  color: #ffff;
+  background-color: #5e17eb;
+  border: 1px solid #5e17eb;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 20%;
+}
+
+.hero-btn1 {
+  text-decoration: none;
+  margin: 1.2rem;
+
+  font-weight: 500;
+  color: black;
+}
+
+/* babysitter section */
+
+#babysitter-section {
+  margin-top: 5rem;
+}
+
+.babysitter-heading {
+  text-align: center;
+}
+
+.babysitter-heading h1 {
+  margin-bottom: 1rem;
+}
+
+.heading-btns {
+  width: 100%;
+  margin: 0.5 auto 2.5rem auto;
+}
+.btn-nanny {
+  padding: 0.4rem;
+  background-color: #ffff;
+  border-radius: 15px;
+  width: 150px;
+  border: 1px solid #5e17eb;
+  color: #a992a1;
+  margin: 0 0.5rem;
+  background-image: url("images/location.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 5px center;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #5e17eb;
+}
+.btn-nanny0 {
+  padding: 0.4rem;
+  background-color: #ffff;
+  border-radius: 15px;
+  width: 150px;
+  border: 1px solid #5e17eb;
+  color: #a992a1;
+  margin: 0 0.5rem;
+}
+.btn-nanny2 {
+  padding: 0.4rem;
+  background-color: #5e17eb;
+  border-radius: 15px;
+  width: 150px;
+  border: 1px solid #5e17eb;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  padding: 20px 100px;
+  justify-content: left;
+  align-items: center;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+.each-babysitters {
+  flex: 0 0 calc(100% / 5);
+  margin-right: 30px;
+
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px #ccc;
+
+  border-radius: 20px;
+  height: auto;
+  box-sizing: border-box;
+}
+.box {
+  border: 0px solid #ccc;
+  box-shadow: 0px 0px 0px #ccc;
+}
+
+.each-babysitters:last-child {
+  margin-right: 0;
+}
+
+.each-babysitters img {
+  max-width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.babysitter-info {
+  padding: 5px 15px 10px 15px;
+  margin-left: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.babysitter-info h2 {
+  font-size: small;
+  color: #5e17eb;
+  font-weight: 550;
+  margin-bottom: 0.2rem;
+}
+
+.rating i {
+  margin: 0 1px 0.5rem 0;
+}
+
+.location {
+  font-size: small;
+  margin-bottom: 0.2rem;
+  color: #5e17eb;
+  font-size: x-small;
+}
+
+.location i {
+  margin-right: 3px;
+  color: #5e17eb;
+}
+
+.worked {
+  margin-bottom: 17px;
+  font-size: x-small;
+}
+
+.worked i {
+  margin-right: 3px;
+}
+
+.para {
+  font-weight: 700;
+  font-size: x-small;
+  margin-bottom: 20px;
+}
+
+.carousel-btn {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  background-color: #5e17eb;
+  border-radius: 50%;
+  padding: 25px 30px;
+
+  padding: 16px 20px;
+  border: 1px solid #5e17eb;
+  z-index: 2000;
+}
+
+.carousel-button-img {
+  width: 20px;
+  fill: #ffffff;
+}
+
+.carousel {
+  position: relative;
+  margin-top: 20px;
+}
+
+.right-btn {
+  left: 93%;
+}
+
+.left-btn {
+  right: 93%;
+}
+
+.btn-download {
+  margin: 1rem auto 0.5rem;
+  display: block;
+  margin: 1.5rem auto 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 14px 20px;
+  color: #ffff;
+  background-color: #5e17eb;
+  border: 1px solid #5e17eb;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 12%;
+}
+
+.end-carousel-sec {
+  text-align: center;
+}
+
+/* our services */
+
+#Our-services {
+  display: flex;
+  justify-content: center;
+  margin: 10rem auto;
+}
+
+#Our-services h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.each-services {
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 3px #ccc;
+  margin: 2rem 0rem;
+}
+
+.each-services img {
+  max-height: 80px;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 15px 15px 0 0;
+}
+
+.services-box {
+  min-width: 700px;
+}
+
+.each-services-info {
+  padding: 15px 20px 20px 20px;
+}
+.services-btn {
+  margin-top: 4rem;
+}
+
+.services-btn button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 10px 20px;
+
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.place-btn {
+  background-color: #5e17eb;
+  border: 1px solid #5e17eb;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.choose-btn {
+  background-color: #fff;
+  color: #5e17eb;
+  border: 1px solid #5e17eb;
+  font-weight: 550;
+}
+
+/* slider */
+
+#slider {
+  margin: 2rem auto;
+}
+
+.slider-track {
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.slider-track-container {
+  height: 90vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slider-item {
+  position: absolute;
+  width: 100%;
+}
+
+.slider-button {
+  background-color: #ffff;
+  border-radius: 50%;
+  padding: 7px 10px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slider-leftBtn {
+  left: 10px;
+}
+
+.slider-rightBtn {
+  right: 10px;
+}
+
+.slider-button-img {
+  width: 40px;
+}
+
+/* last section */
+/* note that the last section in using the same css as the slider section but only the img-div is changed */
+
+.last-section {
+  background-color: #f2f0ff;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.last-section h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.lastSection-item {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-txt {
+  position: relative;
+  display: flex;
+  text-align: center;
+  height: 40px;
+  margin: 0 auto;
+  width: 100%;
+}
+.slider-txt h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 100%;
+}
+.viewtxt {
+  display: none;
+}
+
+.logos img {
+  margin-right: 1rem;
+}
+
+.logos {
+  margin-bottom: 1rem;
+  clear: both;
+}
+
+.lastSection-item img {
+  width: 22%;
+  height: 60vh;
+  object-fit: fill;
+  object-position: top;
+}
+
+.lastSec-track-container {
+  height: 60vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.last-leftBtn {
+  left: 10%;
+}
+
+.last-rightBtn {
+  right: 10%;
+}
+
+.lastSec-track {
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+
+#slider {
+  margin: 2rem auto;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.slider-track-container {
+  height: 90vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slider-item {
+  position: absolute;
+  width: 100%;
+}
+
+.lastSec-button {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 10px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* mobile mobile mobile */
+
+@media screen and (max-width: 800px) {
+  /* hero-section */
+
+  .top img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+    border-radius: 0px;
+  }
+
+  .bottom {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .bottom h1 {
+    font-size: 27px;
+    margin-bottom: 1rem;
+  }
+  .check-mark {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .each {
+    line-height: 2;
+    white-space: nowrap;
+  }
+  .each i {
+    display: inline-block;
+    color: #5e17eb;
+    margin-right: 0.5rem;
+  }
+
+  .each p {
+    font-size: 15px;
+  }
+
+  .hero-btn {
+    padding: 8px 5px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 37%;
+    margin: 1rem auto 0.4rem;
+  }
+
+  .hero-btn1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* babysitters section */
+
+  .babysitter-heading h1 {
+    margin-bottom: 1rem;
+    font-size: 25x;
+  }
+
+  .btn-nanny {
+    margin-bottom: 13px;
+  }
+
+  .wrapper {
+    display: flex;
+    padding: 20px 0px;
+  }
+
+  .each-babysitters {
+    flex: 0 0 calc(100% / 1);
+    margin-right: 0px;
+
+    border: 0px;
+    box-shadow: 0px 0px 0px white;
+    padding: 10px 40px;
+  }
+  .box {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 20px;
+  }
+
+  .carousel-btn {
+    padding: 16px 20px;
+  }
+
+  .carousel-button-img {
+    width: 13px;
+    fill: #ffffff;
+  }
+
+  .carousel {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .right-btn {
+    left: 83%;
+  }
+
+  .left-btn {
+    right: 83%;
+  }
+
+  .btn-download {
+    margin-bottom: 0.2rem;
+    padding: 14px 20px;
+
+    font-size: 18px;
+    width: 45%;
+  }
+
+  /* our services */
+
+  .each-services {
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 3px #ccc;
+    margin: 2rem 0rem 2.3rem;
+  }
+
+  .each-services img {
+    max-height: 80px;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .services-box {
+    margin: 0;
+    min-width: 95%;
+  }
+
+  .each-services-info {
+    padding: 15px 20px 20px 20px;
+  }
+
+  /* last section */
+
+  .lastSection-item img {
+    width: 70%;
+    height: auto;
+    object-fit: fill;
+    object-position: top;
+  }
+
+  .slider {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .slider-button {
+    background-color: #ffff;
+    border-radius: 50%;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .slider-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .slider-button-img {
+    width: 20px;
+  }
+
+  .slider-track-container {
+    height: 35vh;
+  }
+
+  .lastSection-item img {
+    width: 80%;
+    height: 60vh;
+    object-fit: fill;
+    object-position: top;
+  }
+
+  .lastSec-track-container {
+    height: 60vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  .last-leftBtn {
+    left: 2%;
+  }
+
+  .last-rightBtn {
+    right: 2%;
+  }
+}
